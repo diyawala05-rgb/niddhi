@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday, My Unexpected Friend 💗</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:Poppins,sans-serif;
+  background:#fff7fb;
+  color:#321d2a;
+  overflow-x:hidden;
+}
+body:before{
+  content:"";
+  position:fixed; inset:0; pointer-events:none; z-index:-1;
+  background:
+    radial-gradient(circle at 10% 10%, rgba(255,182,213,.35), transparent 28%),
+    radial-gradient(circle at 90% 20%, rgba(214,193,255,.30), transparent 25%),
+    radial-gradient(circle at 50% 100%, rgba(255,220,180,.25), transparent 30%);
+}
+.float{position:fixed;pointer-events:none;opacity:.6;animation:rise linear infinite;z-index:0}
+@keyframes rise{from{transform:translateY(110vh) rotate(0deg);opacity:0}15%{opacity:.7}to{transform:translateY(-15vh) rotate(360deg);opacity:0}}
+
+.hero{
+  min-height:100vh; display:flex; align-items:center; justify-content:center;
+  text-align:center; padding:60px 20px; position:relative;
+}
+.hero-card{max-width:900px;position:relative;z-index:2}
+.kicker{letter-spacing:4px;text-transform:uppercase;font-size:.72rem;font-weight:600;color:#b45a83;margin-bottom:20px}
+h1{
+  font-family:"DM Serif Display",serif;
+  font-size:clamp(4rem,12vw,8.5rem); line-height:.86;
+  font-weight:400; color:#3a2030;
+}
+h1 span{color:#d55b91;font-style:italic}
+.subtitle{margin:28px auto 0;max-width:650px;font-size:1.05rem;line-height:1.9;color:#705364}
+.badge{
+  display:inline-block;margin-top:30px;padding:11px 18px;border-radius:99px;
+  background:#fff;border:1px solid #f1c7d9;box-shadow:0 10px 30px rgba(150,80,110,.08);
+  font-size:.85rem;color:#a24670
+}
+.scroll{position:absolute;bottom:25px;left:50%;transform:translateX(-50%);font-size:.72rem;letter-spacing:2px;color:#a88a99}
+
+.section{padding:100px 7vw;max-width:1250px;margin:auto}
+.section-head{text-align:center;margin-bottom:50px}
+.eyebrow{text-transform:uppercase;letter-spacing:3px;color:#b45a83;font-size:.7rem;font-weight:600}
+h2{font-family:"DM Serif Display",serif;font-size:clamp(2.8rem,6vw,5rem);font-weight:400;margin-top:8px}
+.note{
+  max-width:760px;margin:0 auto;background:rgba(255,255,255,.78);
+  border:1px solid #f0d5e1;border-radius:28px;padding:40px;
+  box-shadow:0 25px 70px rgba(100,45,75,.08);
+  font-size:1rem;line-height:2;text-align:center;color:#684d5d;
+}
+.note strong{color:#bd4f7d}
+.note .laugh{font-size:1.5rem;display:block;margin:10px}
+
+.gallery{
+  display:grid;grid-template-columns:repeat(12,1fr);gap:18px;
+}
+.photo{
+  position:relative;overflow:hidden;border-radius:24px;background:#eadde4;
+  box-shadow:0 18px 45px rgba(70,30,55,.12);
+}
+.photo img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .7s ease}
+.photo:hover img{transform:scale(1.06)}
+.photo:nth-child(1){grid-column:span 7;height:520px}
+.photo:nth-child(2){grid-column:span 5;height:520px}
+.photo:nth-child(3){grid-column:span 5;height:560px}
+.photo:nth-child(4){grid-column:span 7;height:560px}
+.caption{
+  position:absolute;left:18px;bottom:18px;background:rgba(255,255,255,.82);
+  backdrop-filter:blur(10px);padding:8px 14px;border-radius:99px;font-size:.72rem;color:#593a4a
+}
+
+.timeline{max-width:760px;margin:auto;position:relative}
+.timeline:before{content:"";position:absolute;left:17px;top:0;bottom:0;width:2px;background:#edbfd2}
+.item{position:relative;padding:0 0 40px 60px}
+.dot{position:absolute;left:7px;top:4px;width:22px;height:22px;background:#d55b91;border:6px solid #fff7fb;border-radius:50%;box-shadow:0 0 0 1px #eab3ca}
+.item h3{font-size:1rem;margin-bottom:7px;color:#a84670}
+.item p{line-height:1.8;color:#735867;font-size:.92rem}
+
+.final{
+  min-height:75vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:80px 20px;
+}
+.final-box{max-width:800px}
+.final h2{font-size:clamp(3.5rem,8vw,7rem)}
+.final p{font-size:1rem;line-height:2;margin:25px auto;color:#705364;max-width:620px}
+.signature{font-family:"DM Serif Display",serif;font-size:2rem;color:#d55b91;margin-top:25px}
+footer{text-align:center;padding:25px;color:#ad94a2;font-size:.72rem;letter-spacing:1px}
+
+@media(max-width:700px){
+  .section{padding:75px 18px}
+  .note{padding:28px 22px}
+  .gallery{display:block}
+  .photo,.photo:nth-child(1),.photo:nth-child(2),.photo:nth-child(3),.photo:nth-child(4){height:430px;margin-bottom:16px}
+}
+</style>
+</head>
+<body>
+
+<div class="float" style="left:8%;font-size:25px;animation-duration:12s">♡</div>
+<div class="float" style="left:24%;font-size:18px;animation-duration:17s;animation-delay:3s">✦</div>
+<div class="float" style="left:76%;font-size:28px;animation-duration:14s;animation-delay:1s">♡</div>
+<div class="float" style="left:91%;font-size:17px;animation-duration:19s;animation-delay:5s">✧</div>
+
+<section class="hero">
+  <div class="hero-card">
+    <div class="kicker">a little birthday page for you</div>
+    <h1>Happy<br><span>Birthday</span> ♡</h1>
+    <p class="subtitle">
+      Some people enter your life with a plan.<br>
+      You entered mine because of an internship. And somehow… you stayed. 🥹
+    </p>
+    <div class="badge">from EnFuse internship → to a genuinely good friendship</div>
+  </div>
+  <div class="scroll">SCROLL FOR THE MEMORIES ↓</div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div class="eyebrow">the unexpected part</div>
+    <h2>Who knew? 😭</h2>
+  </div>
+  <div class="note">
+    I honestly didn't expect that going to <strong>EnFuse for an internship</strong>
+    would give me a friendship like ours. It was completely unexpected, but I'm
+    genuinely so glad it happened. 🫶🏻<br><br>
+    We may not talk every single day, and that's okay.
+    Some friendships don't need daily conversations to still feel real.
+    <span class="laugh">😭😂💗</span>
+    And YES — I was literally understanding your birthday as the <strong>10th</strong>
+    when your birthday had already happened on the <strong>1st</strong>. 😭
+    GIRLLLL. 💀😂
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div class="eyebrow">little moments</div>
+    <h2>Us, apparently ✨</h2>
+  </div>
+  <div class="gallery">
+    <div class="photo"><img src="photos/photo1.jpg" alt="Friends together"><div class="caption">the OG memories ♡</div></div>
+    <div class="photo"><img src="photos/photo2.jpg" alt="Friends outdoors"><div class="caption">random days, best memories</div></div>
+    <div class="photo"><img src="photos/photo3.jpg" alt="A happy candid"><div class="caption">main character energy ✦</div></div>
+    <div class="photo"><img src="photos/photo4.jpg" alt="Friends together outdoors"><div class="caption">one more for the memory box</div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div class="eyebrow">our tiny story</div>
+    <h2>From strangers to this 🥹</h2>
+  </div>
+  <div class="timeline">
+    <div class="item">
+      <div class="dot"></div>
+      <h3>Chapter 01 — EnFuse</h3>
+      <p>We went there for an internship. Just another normal beginning… or so I thought.</p>
+    </div>
+    <div class="item">
+      <div class="dot"></div>
+      <h3>Chapter 02 — Somehow, friendship</h3>
+      <p>Somewhere between the internship days and random conversations, you became one of my good friends.</p>
+    </div>
+    <div class="item">
+      <div class="dot"></div>
+      <h3>Chapter 03 — No daily texting required</h3>
+      <p>We don't have to talk 24/7. The friendship still exists, the comfort is still there, and that's what matters.</p>
+    </div>
+    <div class="item">
+      <div class="dot"></div>
+      <h3>Chapter 04 — Your birthday… on the 1st 😭</h3>
+      <p>Meanwhile, me confidently thinking “10th” and your birthday had already passed. I deserve the clown award. 🤡</p>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="final-box">
+    <div class="eyebrow">one last thing</div>
+    <h2>I'm glad I met you. 💗</h2>
+    <p>
+      Here's to another year of happiness, success, crazy memories,
+      good people and all the beautiful things you deserve.
+      Stay exactly the lovely person you are.
+      And please… next time, make sure I know the ACTUAL birthday date. 😭😂
+    </p>
+    <div class="signature">Happy Birthday, girlieee! 🎂♡</div>
+  </div>
+</section>
+
+<footer>made with too much love, a little chaos &amp; one very wrong birthday date 💌</footer>
+
+<script>
+const symbols = ["♡","✦","✧","♥"];
+for(let i=0;i<10;i++){
+  const el=document.createElement("div");
+  el.className="float";
+  el.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+  el.style.left=(Math.random()*100)+"%";
+  el.style.fontSize=(12+Math.random()*20)+"px";
+  el.style.animationDuration=(10+Math.random()*13)+"s";
+  el.style.animationDelay=(-Math.random()*12)+"s";
+  document.body.appendChild(el);
+}
+</script>
+</body>
+</html>
